@@ -1,0 +1,8 @@
+INFO     Addicated:test_invest.py:21 ----------开始执行登录的用例--------
+INFO     Addicated:base_page.py:127 文本内容输入--('xpath', '//input[@placeholder="手机号"]')--成功
+INFO     Addicated:base_page.py:127 文本内容输入--('xpath', '//input[@placeholder="密码"]')--成功
+INFO     Addicated:base_page.py:110 元素--('xpath', "//button[text()='登录']")--点击成功
+INFO     Addicated:base_page.py:110 元素--('xpath', "(//a[text()='抢投标'])[1]")--点击成功
+INFO     Addicated:base_page.py:127 文本内容输入--('xpath', '//input[@data-amount]')--成功
+INFO     Addicated:base_page.py:95 元素--('xpath', '//button[@class="btn btn-special height_style"]')--获取文本成功
+INFO     Addicated:test_invest.py:64 用例--输入金额非10的整数倍---执行通过

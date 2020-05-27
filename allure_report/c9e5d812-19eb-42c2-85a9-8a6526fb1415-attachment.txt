@@ -1,0 +1,8 @@
+2020-05-27 17:20:14,722 -- [test_invest.py-->line:21] - INFO: ----------开始执行登录的用例--------
+2020-05-27 17:20:42,016 -- [base_page.py-->line:127] - INFO: 文本内容输入--('xpath', '//input[@placeholder="手机号"]')--成功
+2020-05-27 17:20:42,309 -- [base_page.py-->line:127] - INFO: 文本内容输入--('xpath', '//input[@placeholder="密码"]')--成功
+2020-05-27 17:20:42,610 -- [base_page.py-->line:110] - INFO: 元素--('xpath', "//button[text()='登录']")--点击成功
+2020-05-27 17:21:30,963 -- [base_page.py-->line:110] - INFO: 元素--('xpath', "(//a[text()='抢投标'])[1]")--点击成功
+2020-05-27 17:21:31,275 -- [base_page.py-->line:127] - INFO: 文本内容输入--('xpath', '//input[@data-amount]')--成功
+2020-05-27 17:21:31,836 -- [base_page.py-->line:95] - INFO: 元素--('xpath', '//button[@class="btn btn-special height_style"]')--获取文本成功
+2020-05-27 17:21:31,836 -- [test_invest.py-->line:64] - INFO: 用例--输入金额非10的整数倍---执行通过

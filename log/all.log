@@ -1,0 +1,766 @@
+2020-05-22 20:11:38,979 -- [test_login.py-->line:84] - ERROR: -------用例执行失败---case为：{'mobile': '18684720553', 'pwd': 'pyt1234', 'expected': '帐号或密码错误!'}--------
+2020-05-22 20:11:38,979 -- [test_login.py-->line:85] - ERROR: assert '帐号或密码错误!' == ''
+  + 帐号或密码错误!
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame\test_case\test_login.py", line 82, in test_login_error_alert
+    assert case['expected'] == res
+AssertionError: assert '帐号或密码错误!' == ''
+  + 帐号或密码错误!
+2020-05-22 20:11:48,915 -- [test_login.py-->line:84] - ERROR: -------用例执行失败---case为：{'mobile': '18684727888', 'pwd': 'python1', 'expected': '此账号没有经过授权，请联系管理员!'}--------
+2020-05-22 20:11:48,916 -- [test_login.py-->line:85] - ERROR: assert '此账号没有经过授权，请联系管理员!' == ''
+  + 此账号没有经过授权，请联系管理员!
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame\test_case\test_login.py", line 82, in test_login_error_alert
+    assert case['expected'] == res
+AssertionError: assert '此账号没有经过授权，请联系管理员!' == ''
+  + 此账号没有经过授权，请联系管理员!
+2020-05-22 20:38:03,721 -- [test_login.py-->line:87] - ERROR: -------用例执行失败---case为：{'mobile': '18684720553', 'pwd': 'pyt1234', 'expected': '帐号或密码错误!'}--------
+2020-05-22 20:38:03,772 -- [test_login.py-->line:88] - ERROR: assert '帐号或密码错误!' == '此账号没有经过授权，请联系管理员!'
+  - 此账号没有经过授权，请联系管理员!
+  + 帐号或密码错误!
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame\test_case\test_login.py", line 85, in test_login_error_alert
+    assert case['expected'] == res
+AssertionError: assert '帐号或密码错误!' == '此账号没有经过授权，请联系管理员!'
+  - 此账号没有经过授权，请联系管理员!
+  + 帐号或密码错误!
+2020-05-22 20:41:51,077 -- [test_login.py-->line:89] - ERROR: -------用例执行失败---case为：{'mobile': '18684720553', 'pwd': 'pyt1234', 'expected': '帐号或密码错误!'}--------
+2020-05-22 20:41:51,102 -- [test_login.py-->line:90] - ERROR: assert '帐号或密码错误!' == ''
+  + 帐号或密码错误!
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame\test_case\test_login.py", line 87, in test_login_error_alert
+    assert case['expected'] == res
+AssertionError: assert '帐号或密码错误!' == ''
+  + 帐号或密码错误!
+2020-05-24 09:29:09,543 -- [base_page.py-->line:104] - ERROR: 元素--('xpath', '//a[text()="确认"]')--点击元素失败
+2020-05-24 09:29:09,711 -- [base_page.py-->line:105] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame\page\base_page.py", line 101, in click_ele
+    self.driver.find_element(*locator).click()
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+
+2020-05-24 09:29:26,220 -- [base_page.py-->line:104] - ERROR: 元素--('xpath', '//a[text()="确认"]')--点击元素失败
+2020-05-24 09:29:26,254 -- [base_page.py-->line:105] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame\page\base_page.py", line 101, in click_ele
+    self.driver.find_element(*locator).click()
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+
+2020-05-24 09:29:41,956 -- [base_page.py-->line:104] - ERROR: 元素--('xpath', '//a[text()="确认"]')--点击元素失败
+2020-05-24 09:29:41,957 -- [base_page.py-->line:105] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame\page\base_page.py", line 101, in click_ele
+    self.driver.find_element(*locator).click()
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+
+2020-05-24 09:29:43,817 -- [base_page.py-->line:104] - ERROR: 元素--('xpath', '//button[@class="btn btn-special height_style"]')--点击元素失败
+2020-05-24 09:29:43,817 -- [base_page.py-->line:105] - ERROR: Message: element click intercepted: Element <button disabled="" class="btn btn-special height_style">...</button> is not clickable at point (943, 370). Other element would receive the click: <div class="pd-right">...</div>
+  (Session info: chrome=81.0.4044.138)
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame\page\base_page.py", line 101, in click_ele
+    self.driver.find_element(*locator).click()
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button disabled="" class="btn btn-special height_style">...</button> is not clickable at point (943, 370). Other element would receive the click: <div class="pd-right">...</div>
+  (Session info: chrome=81.0.4044.138)
+
+2020-05-24 09:29:45,762 -- [base_page.py-->line:104] - ERROR: 元素--('xpath', '//button[@class="btn btn-special height_style"]')--点击元素失败
+2020-05-24 09:29:45,762 -- [base_page.py-->line:105] - ERROR: Message: element click intercepted: Element <button disabled="" class="btn btn-special height_style">...</button> is not clickable at point (935, 370). Other element would receive the click: <div class="pd-right">...</div>
+  (Session info: chrome=81.0.4044.138)
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame\page\base_page.py", line 101, in click_ele
+    self.driver.find_element(*locator).click()
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button disabled="" class="btn btn-special height_style">...</button> is not clickable at point (935, 370). Other element would receive the click: <div class="pd-right">...</div>
+  (Session info: chrome=81.0.4044.138)
+
+2020-05-24 09:29:47,811 -- [base_page.py-->line:104] - ERROR: 元素--('xpath', '//button[@class="btn btn-special height_style"]')--点击元素失败
+2020-05-24 09:29:47,811 -- [base_page.py-->line:105] - ERROR: Message: element click intercepted: Element <button disabled="" class="btn btn-special height_style">...</button> is not clickable at point (927, 370). Other element would receive the click: <div class="pd-right">...</div>
+  (Session info: chrome=81.0.4044.138)
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame\page\base_page.py", line 101, in click_ele
+    self.driver.find_element(*locator).click()
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button disabled="" class="btn btn-special height_style">...</button> is not clickable at point (927, 370). Other element would receive the click: <div class="pd-right">...</div>
+  (Session info: chrome=81.0.4044.138)
+
+2020-05-24 09:29:49,683 -- [base_page.py-->line:104] - ERROR: 元素--('xpath', '//button[@class="btn btn-special height_style"]')--点击元素失败
+2020-05-24 09:29:49,684 -- [base_page.py-->line:105] - ERROR: Message: element click intercepted: Element <button disabled="" class="btn btn-special height_style">...</button> is not clickable at point (927, 370). Other element would receive the click: <div class="pd-right">...</div>
+  (Session info: chrome=81.0.4044.138)
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame\page\base_page.py", line 101, in click_ele
+    self.driver.find_element(*locator).click()
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button disabled="" class="btn btn-special height_style">...</button> is not clickable at point (927, 370). Other element would receive the click: <div class="pd-right">...</div>
+  (Session info: chrome=81.0.4044.138)
+
+2020-05-24 09:29:51,747 -- [base_page.py-->line:104] - ERROR: 元素--('xpath', '//button[@class="btn btn-special height_style"]')--点击元素失败
+2020-05-24 09:29:51,748 -- [base_page.py-->line:105] - ERROR: Message: element click intercepted: Element <button disabled="" class="btn btn-special height_style">...</button> is not clickable at point (927, 370). Other element would receive the click: <div class="pd-right">...</div>
+  (Session info: chrome=81.0.4044.138)
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame\page\base_page.py", line 101, in click_ele
+    self.driver.find_element(*locator).click()
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button disabled="" class="btn btn-special height_style">...</button> is not clickable at point (927, 370). Other element would receive the click: <div class="pd-right">...</div>
+  (Session info: chrome=81.0.4044.138)
+
+2020-05-24 09:39:43,586 -- [base_page.py-->line:104] - ERROR: 元素--('xpath', '//a[text()="确认"]')--点击元素失败
+2020-05-24 09:39:43,605 -- [base_page.py-->line:105] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame\page\base_page.py", line 101, in click_ele
+    self.driver.find_element(*locator).click()
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+
+2020-05-24 09:40:00,305 -- [base_page.py-->line:104] - ERROR: 元素--('xpath', '//a[text()="确认"]')--点击元素失败
+2020-05-24 09:40:00,306 -- [base_page.py-->line:105] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame\page\base_page.py", line 101, in click_ele
+    self.driver.find_element(*locator).click()
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+
+2020-05-24 09:40:16,389 -- [base_page.py-->line:104] - ERROR: 元素--('xpath', '//a[text()="确认"]')--点击元素失败
+2020-05-24 09:40:16,389 -- [base_page.py-->line:105] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame\page\base_page.py", line 101, in click_ele
+    self.driver.find_element(*locator).click()
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+
+2020-05-24 09:40:19,166 -- [test_invest.py-->line:78] - ERROR: 用例--输入金额为0---执行未通过
+2020-05-24 09:40:19,166 -- [test_invest.py-->line:79] - ERROR: assert '请正确填写投标金额' == ''
+  + 请正确填写投标金额
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame\test_case\test_invest.py", line 76, in test_invest_error_alert
+    assert case['expected'] == res
+AssertionError: assert '请正确填写投标金额' == ''
+  + 请正确填写投标金额
+2020-05-24 09:40:20,772 -- [test_invest.py-->line:78] - ERROR: 用例--输入金额为10的整数倍，但少于100---执行未通过
+2020-05-24 09:40:20,773 -- [test_invest.py-->line:79] - ERROR: assert '投标金额必须为100的倍数' == ''
+  + 投标金额必须为100的倍数
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame\test_case\test_invest.py", line 76, in test_invest_error_alert
+    assert case['expected'] == res
+AssertionError: assert '投标金额必须为100的倍数' == ''
+  + 投标金额必须为100的倍数
+2020-05-24 09:40:37,018 -- [base_page.py-->line:89] - ERROR: 元素--('xpath', '//li[@class="color_sub"]')--获取文本失败
+2020-05-24 09:40:37,018 -- [base_page.py-->line:90] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class="color_sub"]"}
+  (Session info: chrome=81.0.4044.138)
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame\page\base_page.py", line 86, in get_ele_text
+    text = self.driver.find_element(*locator).text
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class="color_sub"]"}
+  (Session info: chrome=81.0.4044.138)
+
+2020-05-24 09:57:26,111 -- [base_page.py-->line:104] - ERROR: 元素--('xpath', '//a[text()="确认"]')--点击元素失败
+2020-05-24 09:57:26,122 -- [base_page.py-->line:105] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame\page\base_page.py", line 101, in click_ele
+    self.driver.find_element(*locator).click()
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+
+2020-05-24 09:57:42,809 -- [base_page.py-->line:104] - ERROR: 元素--('xpath', '//a[text()="确认"]')--点击元素失败
+2020-05-24 09:57:42,809 -- [base_page.py-->line:105] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame\page\base_page.py", line 101, in click_ele
+    self.driver.find_element(*locator).click()
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+
+2020-05-24 09:57:58,788 -- [base_page.py-->line:104] - ERROR: 元素--('xpath', '//a[text()="确认"]')--点击元素失败
+2020-05-24 09:57:58,788 -- [base_page.py-->line:105] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame\page\base_page.py", line 101, in click_ele
+    self.driver.find_element(*locator).click()
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+
+2020-05-24 09:58:19,357 -- [base_page.py-->line:89] - ERROR: 元素--('xpath', '//li[@class="color_sub"]')--获取文本失败
+2020-05-24 09:58:19,358 -- [base_page.py-->line:90] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class="color_sub"]"}
+  (Session info: chrome=81.0.4044.138)
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame\page\base_page.py", line 86, in get_ele_text
+    text = self.driver.find_element(*locator).text
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class="color_sub"]"}
+  (Session info: chrome=81.0.4044.138)
+
+2020-05-24 10:04:04,235 -- [base_page.py-->line:104] - ERROR: 元素--('xpath', '//a[text()="确认"]')--点击元素失败
+2020-05-24 10:04:04,292 -- [base_page.py-->line:105] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame\page\base_page.py", line 101, in click_ele
+    self.driver.find_element(*locator).click()
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+
+2020-05-24 10:04:22,778 -- [base_page.py-->line:104] - ERROR: 元素--('xpath', '//a[text()="确认"]')--点击元素失败
+2020-05-24 10:04:22,779 -- [base_page.py-->line:105] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame\page\base_page.py", line 101, in click_ele
+    self.driver.find_element(*locator).click()
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+
+2020-05-24 10:04:38,802 -- [base_page.py-->line:104] - ERROR: 元素--('xpath', '//a[text()="确认"]')--点击元素失败
+2020-05-24 10:04:38,802 -- [base_page.py-->line:105] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame\page\base_page.py", line 101, in click_ele
+    self.driver.find_element(*locator).click()
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+
+2020-05-24 10:04:42,887 -- [test_invest.py-->line:79] - ERROR: 用例--输入金额为空格---执行未通过
+2020-05-24 10:04:42,888 -- [test_invest.py-->line:80] - ERROR: assert '请正确填写投标金额' == ''
+  + 请正确填写投标金额
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame\test_case\test_invest.py", line 77, in test_invest_error_alert
+    assert case['expected'] == res
+AssertionError: assert '请正确填写投标金额' == ''
+  + 请正确填写投标金额
+2020-05-24 10:12:56,710 -- [base_page.py-->line:104] - ERROR: 元素--('xpath', '//a[text()="确认"]')--点击元素失败
+2020-05-24 10:12:56,710 -- [base_page.py-->line:105] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame\page\base_page.py", line 101, in click_ele
+    self.driver.find_element(*locator).click()
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+
+2020-05-24 10:13:13,317 -- [base_page.py-->line:104] - ERROR: 元素--('xpath', '//a[text()="确认"]')--点击元素失败
+2020-05-24 10:13:13,318 -- [base_page.py-->line:105] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame\page\base_page.py", line 101, in click_ele
+    self.driver.find_element(*locator).click()
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+
+2020-05-24 10:13:29,183 -- [base_page.py-->line:104] - ERROR: 元素--('xpath', '//a[text()="确认"]')--点击元素失败
+2020-05-24 10:13:29,183 -- [base_page.py-->line:105] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame\page\base_page.py", line 101, in click_ele
+    self.driver.find_element(*locator).click()
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+
+2020-05-24 10:13:31,003 -- [test_invest.py-->line:79] - ERROR: 用例--输入金额为负数---执行未通过
+2020-05-24 10:13:31,003 -- [test_invest.py-->line:80] - ERROR: assert '请正确填写投标金额' == ''
+  + 请正确填写投标金额
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame\test_case\test_invest.py", line 77, in test_invest_error_alert
+    assert case['expected'] == res
+AssertionError: assert '请正确填写投标金额' == ''
+  + 请正确填写投标金额
+2020-05-24 10:13:49,798 -- [base_page.py-->line:89] - ERROR: 元素--('xpath', '//li[@class="color_sub"]')--获取文本失败
+2020-05-24 10:13:49,798 -- [base_page.py-->line:90] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class="color_sub"]"}
+  (Session info: chrome=81.0.4044.138)
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame\page\base_page.py", line 86, in get_ele_text
+    text = self.driver.find_element(*locator).text
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class="color_sub"]"}
+  (Session info: chrome=81.0.4044.138)
+
+2020-05-24 10:21:36,868 -- [base_page.py-->line:104] - ERROR: 元素--('xpath', '//a[text()="确认"]')--点击元素失败
+2020-05-24 10:21:36,869 -- [base_page.py-->line:105] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame\page\base_page.py", line 101, in click_ele
+    self.driver.find_element(*locator).click()
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+
+2020-05-24 10:21:53,936 -- [base_page.py-->line:104] - ERROR: 元素--('xpath', '//a[text()="确认"]')--点击元素失败
+2020-05-24 10:21:53,937 -- [base_page.py-->line:105] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame\page\base_page.py", line 101, in click_ele
+    self.driver.find_element(*locator).click()
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+
+2020-05-24 10:22:10,696 -- [base_page.py-->line:104] - ERROR: 元素--('xpath', '//a[text()="确认"]')--点击元素失败
+2020-05-24 10:22:10,696 -- [base_page.py-->line:105] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame\page\base_page.py", line 101, in click_ele
+    self.driver.find_element(*locator).click()
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+
+2020-05-24 10:25:34,358 -- [base_page.py-->line:104] - ERROR: 元素--('xpath', '//a[text()="确认"]')--点击元素失败
+2020-05-24 10:25:34,358 -- [base_page.py-->line:105] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame\page\base_page.py", line 101, in click_ele
+    self.driver.find_element(*locator).click()
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+
+2020-05-24 10:25:52,002 -- [base_page.py-->line:104] - ERROR: 元素--('xpath', '//a[text()="确认"]')--点击元素失败
+2020-05-24 10:25:52,002 -- [base_page.py-->line:105] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame\page\base_page.py", line 101, in click_ele
+    self.driver.find_element(*locator).click()
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+
+2020-05-24 10:26:09,102 -- [base_page.py-->line:104] - ERROR: 元素--('xpath', '//a[text()="确认"]')--点击元素失败
+2020-05-24 10:26:09,103 -- [base_page.py-->line:105] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame\page\base_page.py", line 101, in click_ele
+    self.driver.find_element(*locator).click()
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+
+2020-05-24 10:33:29,293 -- [base_page.py-->line:104] - ERROR: 元素--('xpath', '//a[text()="确认"]')--点击元素失败
+2020-05-24 10:33:29,294 -- [base_page.py-->line:105] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame\page\base_page.py", line 101, in click_ele
+    self.driver.find_element(*locator).click()
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+
+2020-05-24 10:35:32,336 -- [base_page.py-->line:104] - ERROR: 元素--('xpath', '//a[text()="确认"]')--点击元素失败
+2020-05-24 10:35:32,336 -- [base_page.py-->line:105] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame\page\base_page.py", line 101, in click_ele
+    self.driver.find_element(*locator).click()
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+
+2020-05-24 10:35:49,853 -- [base_page.py-->line:104] - ERROR: 元素--('xpath', '//a[text()="确认"]')--点击元素失败
+2020-05-24 10:35:49,853 -- [base_page.py-->line:105] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame\page\base_page.py", line 101, in click_ele
+    self.driver.find_element(*locator).click()
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+
+2020-05-24 10:36:06,981 -- [base_page.py-->line:104] - ERROR: 元素--('xpath', '//a[text()="确认"]')--点击元素失败
+2020-05-24 10:36:06,981 -- [base_page.py-->line:105] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame\page\base_page.py", line 101, in click_ele
+    self.driver.find_element(*locator).click()
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+
+2020-05-24 10:36:28,944 -- [base_page.py-->line:89] - ERROR: 元素--('xpath', '//li[@class="color_sub"]')--获取文本失败
+2020-05-24 10:36:28,944 -- [base_page.py-->line:90] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class="color_sub"]"}
+  (Session info: chrome=81.0.4044.138)
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame\page\base_page.py", line 86, in get_ele_text
+    text = self.driver.find_element(*locator).text
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class="color_sub"]"}
+  (Session info: chrome=81.0.4044.138)
+
+2020-05-24 10:39:17,176 -- [base_page.py-->line:104] - ERROR: 元素--('xpath', '//a[text()="确认"]')--点击元素失败
+2020-05-24 10:39:17,176 -- [base_page.py-->line:105] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame\page\base_page.py", line 101, in click_ele
+    self.driver.find_element(*locator).click()
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+
+2020-05-24 10:39:34,669 -- [base_page.py-->line:104] - ERROR: 元素--('xpath', '//a[text()="确认"]')--点击元素失败
+2020-05-24 10:39:34,670 -- [base_page.py-->line:105] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame\page\base_page.py", line 101, in click_ele
+    self.driver.find_element(*locator).click()
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+
+2020-05-24 10:39:51,492 -- [base_page.py-->line:104] - ERROR: 元素--('xpath', '//a[text()="确认"]')--点击元素失败
+2020-05-24 10:39:51,493 -- [base_page.py-->line:105] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame\page\base_page.py", line 101, in click_ele
+    self.driver.find_element(*locator).click()
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="确认"]"}
+  (Session info: chrome=81.0.4044.138)
+
+2020-05-24 10:40:14,125 -- [base_page.py-->line:89] - ERROR: 元素--('xpath', '//li[@class="color_sub"]')--获取文本失败
+2020-05-24 10:40:14,126 -- [base_page.py-->line:90] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class="color_sub"]"}
+  (Session info: chrome=81.0.4044.138)
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame\page\base_page.py", line 86, in get_ele_text
+    text = self.driver.find_element(*locator).text
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class="color_sub"]"}
+  (Session info: chrome=81.0.4044.138)
+
+2020-05-24 10:47:50,236 -- [base_page.py-->line:89] - ERROR: 元素--('xpath', '//li[@class="color_sub"]')--获取文本失败
+2020-05-24 10:47:50,237 -- [base_page.py-->line:90] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class="color_sub"]"}
+  (Session info: chrome=81.0.4044.138)
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame\page\base_page.py", line 86, in get_ele_text
+    text = self.driver.find_element(*locator).text
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class="color_sub"]"}
+  (Session info: chrome=81.0.4044.138)
+
+2020-05-24 11:11:23,269 -- [base_page.py-->line:89] - ERROR: 元素--('xpath', '//li[@class="color_sub"]')--获取文本失败
+2020-05-24 11:11:23,313 -- [base_page.py-->line:90] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class="color_sub"]"}
+  (Session info: chrome=81.0.4044.138)
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame\page\base_page.py", line 86, in get_ele_text
+    text = self.driver.find_element(*locator).text
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class="color_sub"]"}
+  (Session info: chrome=81.0.4044.138)
+
+2020-05-24 11:27:56,996 -- [base_page.py-->line:89] - ERROR: 元素--('xpath', '//li[@class="color_sub"]')--获取文本失败
+2020-05-24 11:27:56,997 -- [base_page.py-->line:90] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class="color_sub"]"}
+  (Session info: chrome=81.0.4044.138)
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame_adi\page\base_page.py", line 86, in get_ele_text
+    text = self.driver.find_element(*locator).text
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class="color_sub"]"}
+  (Session info: chrome=81.0.4044.138)
+
+2020-05-27 16:33:42,023 -- [base_page.py-->line:89] - ERROR: 元素--('xpath', '//li[@class="color_sub"]')--获取文本失败
+2020-05-27 16:33:42,149 -- [base_page.py-->line:90] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class="color_sub"]"}
+  (Session info: chrome=83.0.4103.61)
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame_adi\page\base_page.py", line 86, in get_ele_text
+    text = self.driver.find_element(*locator).text
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class="color_sub"]"}
+  (Session info: chrome=83.0.4103.61)
+
+2020-05-27 16:49:34,304 -- [base_page.py-->line:89] - ERROR: 元素--('xpath', '//li[@class="color_sub"]')--获取文本失败
+2020-05-27 16:49:34,347 -- [base_page.py-->line:90] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class="color_sub"]"}
+  (Session info: chrome=83.0.4103.61)
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame_adi\page\base_page.py", line 86, in get_ele_text
+    text = self.driver.find_element(*locator).text
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class="color_sub"]"}
+  (Session info: chrome=83.0.4103.61)
+
+2020-05-27 16:54:39,011 -- [base_page.py-->line:89] - ERROR: 元素--('xpath', '//li[@class="color_sub"]')--获取文本失败
+2020-05-27 16:54:39,011 -- [base_page.py-->line:90] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class="color_sub"]"}
+  (Session info: chrome=83.0.4103.61)
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame_adi\page\base_page.py", line 86, in get_ele_text
+    text = self.driver.find_element(*locator).text
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class="color_sub"]"}
+  (Session info: chrome=83.0.4103.61)
+
+2020-05-27 17:21:55,632 -- [base_page.py-->line:89] - ERROR: 元素--('xpath', '//li[@class="color_sub"]')--获取文本失败
+2020-05-27 17:21:55,652 -- [base_page.py-->line:90] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class="color_sub"]"}
+  (Session info: chrome=83.0.4103.61)
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame_adi\page\base_page.py", line 86, in get_ele_text
+    text = self.driver.find_element(*locator).text
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\坂上青云\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class="color_sub"]"}
+  (Session info: chrome=83.0.4103.61)
+
+2020-05-27 17:27:16,695 -- [base_page.py-->line:89] - ERROR: 元素--('xpath', '//li[@class="color_sub"]')--获取文本失败
+2020-05-27 17:27:16,731 -- [base_page.py-->line:90] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class="color_sub"]"}
+  (Session info: chrome=83.0.4103.61)
+Traceback (most recent call last):
+  File "F:\柠檬班资料\web自动化\ui_frame_adi\page\base_page.py", line 86, in get_ele_text
+    text = self.driver.find_element(*locator).text
+  File "c:\users\坂上青云\appdata\local\programs\python\python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "c:\users\坂上青云\appdata\local\programs\python\python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "c:\users\坂上青云\appdata\local\programs\python\python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class="color_sub"]"}
+  (Session info: chrome=83.0.4103.61)
+

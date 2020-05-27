@@ -1,0 +1,19 @@
+- desc: 登录成功测试用例
+  mobile: 18684720553
+  pwd: python
+  expected: 登录成功
+
+- desc: 手机号为空
+  mobile:
+  pwd: python1
+  expected: 请输入手机号
+
+- desc: 请输入正确的手机号
+  mobile: 1868472055a
+  pwd: python1
+  expected: 请输入正确的手机号
+
+- desc: 请输入密码
+  mobile: 18684720553
+  pwd:
+  expected: 请输入密码

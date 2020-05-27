@@ -1,0 +1,5 @@
+2020-05-27 17:26:59,461 -- [base_page.py-->line:127] - INFO: 文本内容输入--('xpath', '//input[@data-amount]')--成功
+2020-05-27 17:26:59,559 -- [base_page.py-->line:110] - INFO: 元素--('xpath', '//button[@class="btn btn-special height_style"]')--点击成功
+2020-05-27 17:26:59,966 -- [base_page.py-->line:43] - INFO: 元素--('xpath', '//div[@class="text-center"]')--等待成功,等待时间0.406909704208374秒
+2020-05-27 17:27:00,617 -- [base_page.py-->line:110] - INFO: 元素--('xpath', '//a[text()="确认"]')--点击成功
+2020-05-27 17:27:00,617 -- [test_invest.py-->line:85] - INFO: 用例--输入金额为10的整数倍，但少于100---执行通过

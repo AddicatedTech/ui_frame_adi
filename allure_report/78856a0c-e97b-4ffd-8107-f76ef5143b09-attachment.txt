@@ -1,0 +1,3 @@
+INFO     Addicated:base_page.py:127 文本内容输入--('xpath', '//input[@data-amount]')--成功
+INFO     Addicated:base_page.py:95 元素--('xpath', '//button[@class="btn btn-special height_style"]')--获取文本成功
+INFO     Addicated:test_invest.py:64 用例--输入金额为字母---执行通过

@@ -1,0 +1,5 @@
+[32mINFO    [0m Addicated:base_page.py:127 文本内容输入--('xpath', '//input[@data-amount]')--成功
+[32mINFO    [0m Addicated:base_page.py:110 元素--('xpath', '//button[@class="btn btn-special height_style"]')--点击成功
+[32mINFO    [0m Addicated:base_page.py:43 元素--('xpath', '//div[@class="text-center"]')--等待成功,等待时间0.406909704208374秒
+[32mINFO    [0m Addicated:base_page.py:110 元素--('xpath', '//a[text()="确认"]')--点击成功
+[32mINFO    [0m Addicated:test_invest.py:85 用例--输入金额为10的整数倍，但少于100---执行通过
